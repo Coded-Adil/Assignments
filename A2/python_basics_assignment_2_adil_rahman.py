@@ -19,7 +19,7 @@ for i in range(1,11):
 Using a for loop, print only the even numbers between 1 and 20.
 """
 
-for i in range(1,21):
+for i in range(1,20):
   if(i%2==0):
     print(i)
 
@@ -64,6 +64,6 @@ numbers = [10, 25, 30, 45, 50, 65, 70]
 
 numbers = [10, 25, 30, 45, 50, 65, 70]
 
-filtered_numbers = [num for num in numbers if num > 40]
+new_list = [num for num in numbers if num > 40]
 
-print("Numbers greater than 40:", filtered_numbers)
+print("Numbers greater than 40:", new_list)
